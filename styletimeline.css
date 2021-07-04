@@ -1,0 +1,84 @@
+body{
+    background:url(./images/coronavirus-3.jfif);
+    padding-bottom: 50px;
+    color:#fff;
+
+}
+.intro{
+    padding:100px 0;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+}
+h1{
+    font-size:5rem;
+}
+.navbar ul{
+    display:flex;
+    align-content:center;
+    justify-content:center;  
+}
+.navbar ul li{
+    list-style:none;
+    margin:20px;
+}
+.navbar ul li a{
+    display:block;
+    text-align: center;
+    text-decoration:none;
+    font-weight: bold;
+    color:white;
+
+}
+.navbar ul li a:hover{
+    border-bottom: 3px solid #fff;
+}
+.timeline ul{
+    list-style-type: none;
+    padding: 50px 0;
+}
+.timeline ul li{
+    position: relative;
+    width:6px;
+    margin:0 auto;
+    padding-top: 50px;
+    width:6px;
+    background:#fff;
+}
+.timeline ul li div{
+    position:relative;
+    bottom:0;
+    width:400px;
+    padding:15px;
+    background:#FF7B89;
+    border-radius: 7px;
+}
+.timeline ul li:nth-child(odd) div{
+    left:45px;
+    transform:translate3d(200px,0,0);
+}
+.timeline ul li:nth-child(even) div{
+    left:-460px;
+    transform:translate3d(-200px,0,0);
+}
+.timeline ul li div time
+{
+    display:block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.timeline ul li div
+{
+    visibility: hidden;
+    opacity:0;
+    transition: all .5s ease-in-out;
+}
+.timeline ul li.in-view div
+{
+    transform:none;
+    visibility:visible;
+    opacity:1;
+}

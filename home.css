@@ -1,0 +1,81 @@
+h1{
+    color:white;
+    display:block;
+    text-align:center;
+
+}
+.tag{
+    position:absolute;
+    font-size:50px;
+    color:white;
+    top:45%;
+    left:15%;
+    text-align: center;
+}
+.header{
+    background-image:url(./images/Coronavirus-1.jpg) ;
+    background-size: cover;
+    position: relative;
+    height:100vh;
+    padding:20px;
+    text-align:center;
+    
+
+
+}
+ul{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    
+    
+}
+ul li{
+    list-style:none;
+    margin:20px;
+}
+ul li a{
+    display:block;
+    text-align: center;
+    text-decoration:none;
+    font-weight: bold;
+    color:white;
+
+}
+ul li a:hover{
+    border-bottom: 3px solid #fff;
+}
+.body1{
+    display:flex;
+    position:center;
+    background:linear-gradient(to top right,#667eea, #764ba2);
+    padding:100px 150px 150px 100px;
+}
+p{
+    color:white;
+    text-align:center;
+    
+}
+.body2{
+    display:flex;
+    position:center;
+    background:linear-gradient(to top left, #13547a, #80d0c7);
+    padding:100px 150px 150px 100px;
+    
+}
+.body3{
+    display: flex;
+    
+    background:url(./images/coronavirus-2.jpeg ); 
+}
+.flex1{
+    flex:30%;
+    margin:30px;
+    padding:10px;
+    
+}
+.flex2{
+    flex:70%;
+    margin:30px;
+    padding:10px;
+}

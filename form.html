@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styleform.css">
+        <title>COVID-19</title>
+
+    </head>
+    <body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href=#>Corona testing</a></li>
+        </ul>
+  
+    </div>
+    <div class="regform">
+        <h1>Information Form</h1>
+    </div>
+    <div class="main">
+    <form id="testform">
+        <div id="name">
+        <h2 class="name">Name</h2>
+        <input id="firstname" type="text" placeholder="FIrst Name"></input><br>
+        <label id="firstlabel"></label>
+        <input id="lastname" type="text" placeholder="Last Name"></input><br>
+        <label id="lastlabel"></label>
+        </div>
+        <h2 class="name">Profession</h2>
+        <input id="profession" type="text" name="profession" placeholder="student/doctor/teacher"></input>
+        <div class="email">
+        <h2 class="name">E-mail</h2>
+        <input id="email" type="email"></input>
+        </div>
+        <h2 class="name">Mobile number</h2>
+        <input id="number" type="number"></input>
+        <h2 class="name">DOB</h2>
+        <input id="date" type="date">
+        <h2 class="name">State</h2>
+        <select id="state">
+            <option disabled="disabled" required selected="selected">--choose</option>
+            <option>Noida</option>
+            <option>Delhi</option>
+            <option>Punjab</option>
+            <option>Maharashtra</option>
+            <option>Uttarakhand</option>
+            <option>Haryana</option>
+        </select>
+        <h2 class="name">Have you travelled to covid affected country within last month?</h2>
+        <div class="radio">
+        <input id="radio" type="radio" value="Yes">Yes</input>
+        <input id="radio" type="radio" value="No" checked="checked">No</input>
+        </div>
+        <h2 class="name">Do you have any of the following symptoms?</h2>
+        <div class="checkbox">
+            <input name="checkbox" id="check1" type="checkbox">Fever</input>
+            <input name="checkbox" id="check2" type="checkbox">Dry Cough</input>
+            <input name="checkbox" id="check3" type="checkbox">Cold</input>
+            <input name="checkbox" id="check4" type="checkbox">Breathing Issues</input>
+            <input name="checkbox" id="check5" type="checkbox">Chest Pain</input>
+        </div>
+        <input id="submit" type="submit"></input>
+        <h2 class="name">Testing centres around you:</h2>
+    </form>
+    </div>
+    <script src="./testing.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+
+
+    </body>
+</html>
